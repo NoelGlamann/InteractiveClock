@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Noel Glamann
+January 25, 2021 -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="clock.css">
+		<title>Analogue Clock</title>
+	</head>
+	<body>
+		<div class = 'head'>
+			<h1> Interactive Clock </h1>
+		</div>
+		<div class = 'side'>
+			<h2> Find time? </h2> 
+			
+			<label for="hour"> Hour: </label> &nbsp &nbsp &nbsp &nbsp
+			<input type = "number" id="hour" min="1" max="12" placeholder = "1" >
+			<br>
+			<label for="min"> Minute: </label>
+			<input type = "number" id="min" min="0" max="59" placeholder = "0" >
+			<br>
+			<label for="sec"> Second: </label>
+			<input type = "number" id="sec" min="0" max="59" placeholder = "0" >
+			<br>
+			
+			<button id="findTime" onClick="drawRequestedTime()"> GO! </button>
+			<br>
+			<br>
+			<button id="reset" onClick="reset()"> Reset </button>
+		</div>
+		<canvas id="canvas" width="600" height="600"></canvas>
+
+		<script src="clock.js"></script>
+		
+	</body>
+</html>

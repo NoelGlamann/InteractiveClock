@@ -1,0 +1,49 @@
+/* Noel Glamann
+January 25, 2021 */
+
+body{
+    background-color: #000;
+}
+
+#canvas{
+    margin-left: 300px;
+    margin-top: 50px;
+    float: left;
+}
+.head {
+	background-image: linear-gradient(#FFD1F1, #ECD1FF, #D1E4FF);
+	padding: 20px;
+	width: 100%;
+	border: 2px solid #ECECEC;
+}
+
+.head h1 {
+	margin: 5px;
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 3px 3px #FBF6FF;
+}
+
+.side {
+	display: block;
+	width: 19%;
+	height: 100%;
+	float: left;
+	padding-left: 4%;
+	
+	color: #ECECEC;
+	
+	border-right: 2px solid #ECECEC;
+}
+
+.side h2{
+	font-size: 50px;
+}
+
+.side label, button {
+	font-size: 35px;
+}
+
+.side input {
+	font-size: 30px;
+}
